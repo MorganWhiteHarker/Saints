@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Style the header */
+header {text-align: center; padding: 10px;}
+h2 {text-align: center; }
+
+img { display: block; margin-left: auto; margin-right: auto; }
+
+nav ul { list-style-type: none;
+  margin-left: 0;
+  padding: 0; 
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 3px;
+  overflow: hidden;
+  background-color: #333; 
+  border-radius: 15px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111; border-radius: 15px; ;
+}
+
+h1 {font-family: arizonia; color: white; font-size: 300%; border-radius: 15px; }
+
+h2 {font-family: arizonia; background-color: rgba(87, 87, 87, 0.8); color: white; font-size: 175%; border-radius: 15px; }
+
+h3 {font-family: arizonia; background-color: rgba(87, 87, 87, 0.8); color: white; font-size: 175%; text-align: center; border-radius: 15px; }
+
+p {font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'; background-color: rgba(87, 87, 87, 0.8); color: whitesmoke; font-size: 87%; text-indent: 30px; margin: 0px; }
+
+
+.center {margin: auto; 
+	width: 70%;
+		background-color: #575757; padding: 20px;}
+header {margin: auto; 
+	width: 70%;
+		background-color: rgba(87, 87, 87, 0.8); border-radius: 15px; }
+body {margin: auto; 
+	width: 70%;
+		background-color: #575757; padding: 20px; }
